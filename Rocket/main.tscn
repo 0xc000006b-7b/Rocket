@@ -1,0 +1,258 @@
+[gd_scene load_steps=43 format=3 uid="uid://cxdeaao4xgnpp"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_6xt1w"]
+[ext_resource type="Script" path="res://RocketBody2D.gd" id="2_rhtju"]
+[ext_resource type="Texture2D" uid="uid://pfvics03b6yc" path="res://spaceRocket1.png" id="3_2ype2"]
+[ext_resource type="Texture2D" uid="uid://by5r8ang2ig5x" path="res://effects_0088.png" id="3_l0m72"]
+[ext_resource type="Texture2D" uid="uid://bj07f32xoa5tq" path="res://Flame1Loop/0000.png" id="5_an46u"]
+[ext_resource type="Texture2D" uid="uid://cqc5itcxe8025" path="res://Flame1Loop/0001.png" id="6_vimr2"]
+[ext_resource type="Texture2D" uid="uid://cg1jrr4w3frxc" path="res://Flame1Loop/0002.png" id="7_b6i60"]
+[ext_resource type="Texture2D" uid="uid://b86xc532h8tnm" path="res://Flame1Loop/0003.png" id="8_5p64a"]
+[ext_resource type="Texture2D" uid="uid://bbkyn4hejaxox" path="res://Flame1Loop/0004.png" id="9_bnlcb"]
+[ext_resource type="Texture2D" uid="uid://b7el0p5ubdpm2" path="res://Flame1Loop/0005.png" id="10_gaqpx"]
+[ext_resource type="Texture2D" uid="uid://cih0x8asds5o3" path="res://Flame1Loop/0006.png" id="11_g8uml"]
+[ext_resource type="Texture2D" uid="uid://cm6a3v153bbba" path="res://Flame1Loop/0007.png" id="12_b011u"]
+[ext_resource type="Texture2D" uid="uid://blrd20o7urim2" path="res://Flame1Loop/0008.png" id="13_nfaac"]
+[ext_resource type="Texture2D" uid="uid://bqrk0bodb1cos" path="res://Flame1Loop/0009.png" id="14_xr1v8"]
+[ext_resource type="Texture2D" uid="uid://bab22e5ckilrq" path="res://Flame1Loop/0010.png" id="15_31ggu"]
+[ext_resource type="Texture2D" uid="uid://combeeajw2jji" path="res://Flame1Loop/0011.png" id="16_wa5yh"]
+[ext_resource type="Texture2D" uid="uid://bep6feq482d45" path="res://Flame1Loop/0012.png" id="17_a8mwe"]
+[ext_resource type="Texture2D" uid="uid://js7yaweymd1x" path="res://Flame1Loop/0013.png" id="18_lrlbq"]
+[ext_resource type="Texture2D" uid="uid://bmm37mqjcxmli" path="res://Flame1Loop/0014.png" id="19_t77bq"]
+[ext_resource type="Texture2D" uid="uid://fi8mr1ksg6vy" path="res://Flame1Loop/0015.png" id="20_meskf"]
+[ext_resource type="Texture2D" uid="uid://dtqucjp3abp17" path="res://Flame1Loop/0016.png" id="21_kx5my"]
+[ext_resource type="Texture2D" uid="uid://c7clbj6ok0gok" path="res://Flame1Loop/0017.png" id="22_mn8vi"]
+[ext_resource type="Texture2D" uid="uid://c447co5vm4a7d" path="res://Flame1Loop/0018.png" id="23_2m2tn"]
+[ext_resource type="Texture2D" uid="uid://cyq20jhy45yj2" path="res://Flame1Loop/0019.png" id="24_whnnu"]
+[ext_resource type="Texture2D" uid="uid://2m8h2me1v7n0" path="res://Flame1Loop/0020.png" id="25_msw8o"]
+[ext_resource type="Texture2D" uid="uid://d0iqxeuq83yab" path="res://Flame1Loop/0021.png" id="26_1dmi7"]
+[ext_resource type="Texture2D" uid="uid://cc14ce8c3qcg0" path="res://Flame1Loop/0022.png" id="27_jbppr"]
+[ext_resource type="Texture2D" uid="uid://byuve2cbuyqt7" path="res://Flame1Loop/0023.png" id="28_ota4l"]
+[ext_resource type="Texture2D" uid="uid://t20iwayh47b2" path="res://Flame1Loop/0024.png" id="29_3xgtn"]
+[ext_resource type="Texture2D" uid="uid://btsou1kpd4r4h" path="res://Flame1Loop/0025.png" id="30_m56q1"]
+[ext_resource type="Texture2D" uid="uid://dby7rc0odyiot" path="res://Flame1Loop/0026.png" id="31_wbe21"]
+[ext_resource type="Texture2D" uid="uid://s6xo421siw0o" path="res://Flame1Loop/0027.png" id="32_60lrw"]
+[ext_resource type="Texture2D" uid="uid://dcs2qbkjyp14m" path="res://Flame1Loop/0028.png" id="33_fvoq0"]
+[ext_resource type="Texture2D" uid="uid://bi2iil5sq3tci" path="res://Flame1Loop/0029.png" id="34_jhx6b"]
+[ext_resource type="Texture2D" uid="uid://dljales27k2xy" path="res://MountainBackground.png" id="35_ijqr1"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_c3emb"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_of2d2"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_4r54n"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fxgy8"]
+size = Vector2(202.16, 29.2135)
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_ppc0h"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q2aoa"]
+size = Vector2(6, 46)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tp2ui"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_an46u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_vimr2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_b6i60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_5p64a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_bnlcb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_gaqpx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_g8uml")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_b011u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_nfaac")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_xr1v8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_31ggu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_wa5yh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_a8mwe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_lrlbq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_t77bq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_meskf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_kx5my")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_mn8vi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_2m2tn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_whnnu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_msw8o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_1dmi7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_jbppr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_ota4l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_3xgtn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_m56q1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_wbe21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_60lrw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_fvoq0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_jhx6b")
+}],
+"loop": true,
+"name": &"Booster",
+"speed": 30.0
+}]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_6xt1w")
+
+[node name="GroundSprite2D" type="StaticBody2D" parent="."]
+position = Vector2(113, 762)
+scale = Vector2(202.75, 11.138)
+physics_material_override = SubResource("PhysicsMaterial_c3emb")
+
+[node name="Ground2D" type="Sprite2D" parent="GroundSprite2D"]
+material = SubResource("CanvasItemMaterial_of2d2")
+position = Vector2(0, 4.72403)
+scale = Vector2(202, 29.3381)
+texture = SubResource("CanvasTexture_4r54n")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="GroundSprite2D"]
+position = Vector2(0.212084, 4.60676)
+shape = SubResource("RectangleShape2D_fxgy8")
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_mirroring = Vector2(0, 808.22)
+
+[node name="Troposphere" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
+z_index = -1
+material = SubResource("CanvasItemMaterial_ppc0h")
+position = Vector2(-466, -371)
+scale = Vector2(1.675, 2.10978)
+texture = ExtResource("3_l0m72")
+centered = false
+
+[node name="RocketBody2D" type="CharacterBody2D" parent="."]
+position = Vector2(171, 603)
+script = ExtResource("2_rhtju")
+
+[node name="Sprite2D" type="Sprite2D" parent="RocketBody2D"]
+position = Vector2(-2, 26)
+scale = Vector2(0.075, 0.075)
+texture = ExtResource("3_2ype2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RocketBody2D"]
+position = Vector2(-2, 25)
+shape = SubResource("RectangleShape2D_q2aoa")
+
+[node name="RayCast2D" type="RayCast2D" parent="RocketBody2D"]
+position = Vector2(-2, 37)
+target_position = Vector2(0, 25)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="RocketBody2D"]
+position = Vector2(-1.07001, 66.0001)
+rotation = 3.14159
+scale = Vector2(0.635, 0.635)
+sprite_frames = SubResource("SpriteFrames_tp2ui")
+animation = &"Booster"
+frame = 10
+frame_progress = 0.476016
+
+[node name="Camera2D" type="Camera2D" parent="RocketBody2D"]
+position_smoothing_speed = 60.0
+
+[node name="SpeedLabel" type="Label" parent="RocketBody2D/Camera2D"]
+offset_left = -562.0
+offset_top = -305.0
+offset_right = -505.0
+offset_bottom = -282.0
+text = "SPEED: "
+
+[node name="ClickTimerLabel" type="Label" parent="RocketBody2D/Camera2D"]
+offset_left = -301.0
+offset_top = -311.0
+offset_right = -261.0
+offset_bottom = -288.0
+
+[node name="FuelTimerLabel" type="Label" parent="RocketBody2D/Camera2D"]
+offset_left = 495.0
+offset_top = -307.0
+offset_right = 535.0
+offset_bottom = -284.0
+
+[node name="DistanceLabel" type="Label" parent="RocketBody2D/Camera2D"]
+offset_left = -18.0
+offset_top = -314.0
+offset_right = 22.0
+offset_bottom = -291.0
+
+[node name="HighestDistanceLabel" type="Label" parent="RocketBody2D/Camera2D"]
+offset_left = -18.0
+offset_top = -295.0
+offset_right = 22.0
+offset_bottom = -272.0
+
+[node name="FuelTimer" type="Timer" parent="RocketBody2D"]
+wait_time = 10.0
+one_shot = true
+
+[node name="ClickRocketSpeedTimer" type="Timer" parent="."]
+wait_time = 10.0
+one_shot = true
+
+[node name="MountainsSprite2D" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(176, 537)
+scale = Vector2(1.05263, 1)
+texture = ExtResource("35_ijqr1")
+
+[connection signal="timeout" from="RocketBody2D/FuelTimer" to="." method="_on_fuel_timer_timeout"]
+[connection signal="timeout" from="RocketBody2D/FuelTimer" to="RocketBody2D" method="_on_fuel_timer_timeout"]
+[connection signal="timeout" from="ClickRocketSpeedTimer" to="." method="_on_click_rocket_speed_timer_timeout"]
